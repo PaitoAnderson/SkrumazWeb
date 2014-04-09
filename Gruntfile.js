@@ -34,7 +34,7 @@ module.exports = function(grunt) {
       },
       dist: {
         //Order must be specified or boostrap is put before jquery.
-        src: ['js/retina.min.js','js/jquery.min.js','js/bootstrap.min.js','js/custom.js'],
+        src: ['js/jquery.min.js','js/bootstrap.min.js','js/custom.js'],
         dest: 'dist/js/compiled.min.js'
       },
     },
